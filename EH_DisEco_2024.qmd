@@ -1,0 +1,30 @@
+---
+title: "EH_DisEco_Fall2024"
+author: "Ella Hammond"
+format: html
+editor: visual
+---
+
+## 8/27/24
+
+Find area of a circle with radius 5 cm.
+
+Formula: ¶ \* r\^2
+
+where r is the radius.
+
+```{r}
+# Function to calculate the area of a circle
+area_of_circle <- function(radius) {
+  area <- pi * radius^2
+  return(area)
+}
+radius <- 5 # from the example
+circle_area <- area_of_circle(radius)
+cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+
+```
+
+![](images/EpiTriad.png)
+
+The epidemiological triad describes the relationship between the three factors that interact when disease occurs. This is a very simplistic view of the interactions between the host, pathogen, and environment. In reality, there are often more than one and different types of hosts, evolving pathogens, and changing environments. This makes epidemiology much more complex than the traditional triangle.
