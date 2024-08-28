@@ -1,0 +1,30 @@
+---
+title: "EH_DisEco_Fall2024"
+author: "Ella Hammond"
+format: html
+editor: visual
+---
+
+## 8/27/24
+
+Find area of a circle with radius 5 cm.
+
+Formula: ¶ \* r\^2
+
+where r is the radius.
+
+```{r}
+# Function to calculate the area of a circle
+area_of_circle <- function(radius) {
+  area <- pi * radius^2
+  return(area)
+}
+radius <- 5 # from the example
+circle_area <- area_of_circle(radius)
+cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+
+```
+
+![](images/IMG_6983.jpeg)
+
+This is a painting located at the Peabody Essex Museum in Salem, Massachusetts. My family visited Boston this summer and we made a day trip to Salem. One of the unexpected adventures we went on was the Peabody Essex Museum, which had an exhibit all about bats, including live Egyptian Fruit Bats.
