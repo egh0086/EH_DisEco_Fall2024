@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-## 8/27/24
+# 8/27/24
 
 Find area of a circle with radius 5 cm.
 
@@ -29,7 +29,9 @@ cat("The area of the circle with radius", radius, "is", circle_area, "\n")
 
 The epidemiological triad describes the relationship between the three factors that interact when disease occurs. This is a very simplistic view of the interactions between the host, pathogen, and environment. In reality, there are often more than one and different types of hosts, evolving pathogens, and changing environments. This makes epidemiology much more complex than the traditional triangle.
 
-## 9/13/24
+------------------------------------------------------------------------
+
+# 9/13/24
 
 ![](images/ss_table.png)
 
@@ -100,7 +102,9 @@ c) On which day is the prevalence same as the incidence (except the units)?
 
 -   **3/60=0.05**
 
-## 10/3/2024
+------------------------------------------------------------------------
+
+# 10/3/2024
 
 Modeling Memo
 
@@ -110,11 +114,15 @@ Part of some wildlife biologists’ and managers’ issue with disease modeling 
 
 Some of the limitations of disease models can be attributed to data uncertainty. While a disease model is not necessarily an accurate representation of data, it can be used to manipulate different factors to show the effects of interventions. Further, how can we be certain that data collected by other means is truly an accurate representation? The best method for estimating and inferring outcomes is to combine reliable sourced data with manufactured data from a disease model. This combination will give a more accurate picture of what will happen when certain variables are manipulated. The other issue that some find with disease modeling is that it lacks the ecological complexity of a system. This is true but for a reason. If a model was meant to represent an entire ecosystem, it would be quite vague in its data inferences. This is why disease models are only meant to represent a specific question. This is also why disease modeling should be used in conjunction with other methods to make decisions. It is true that ecological complexity gets in the way of truly estimating the effects of wildlife disease, so we must use a combination of methods to try to represent that ecological complexity.
 
-## 10/30/24
+------------------------------------------------------------------------
+
+# 10/30/24
 
 The fecal flotation lab from last week demonstrated how we can perform simple experiments to track the prevalence of parasites in a population. The lab was fairly simple, although different from how I perform fecal floats at work. We started by watching the grad students perform the process and taking notes, then we were able to do the process ourselves. We started by measuring 2 grams of feces into a paper cup and adding 13 mL of water. This was mixed, then strained into another cup, then transfered to a 5 mL tube. We then added 1 mL of a sugar solution to the 5 mL tube. The next step was to vortex the sample so that the ova didn't settle to the bottom, and transfer 1 mL of the sample quickly into the 5 mL tube. This was done twice. Then, we mixed the sugar solution with the sample by drawing the solution into the pipette and back into the tube several times. This solution was then placed into a counter slide and left to rest for 5 minutes. Then, we were able to look at the slides under a microscope and count each ova that we saw. Each ova was meant to represent 50 ova per gram of sample. Unfortunately, in our sample, we didn't see any ova. The grad students explained that the samples we were using came from animals that were dewormed, and they don't usually see a lot of ova. The grad student who runs the lab is writing on the effect of dewormer on cattle populations and if it is truly effective in the current way that deworming is done (every animal gets dewormed regularly even if they do not show signs of infection).
 
-## 11/2/24
+------------------------------------------------------------------------
+
+# 11/2/24
 
 ​1. Using the community epidemiology framework developed by Fenton and Pedersen, would you classify this Marburg virus outbreak as a spillover event or an emerging infectious disease? Justify your classification.
 
@@ -123,3 +131,80 @@ The fecal flotation lab from last week demonstrated how we can perform simple ex
 2\. What measures could be implemented to reduce the risk of transmission in both community and healthcare settings?
 
 **First, it is important that people are aware of the dangers of interacting with wildlife. If people will be traveling to areas with animals that are known to carry disease, they must take proper precautions, like wearing appropriate protective clothing and/or PPE. It is best to avoid interacting with wildlife if at all possible. Secondly, in the ICU settings where Marburg is spreading, we must ensure that proper PPE is being used and proper cleaning and sanitation procedures are in place. It is important that staff interacting with infected patients are monitored closely for symptoms and to ensure that they are following a standard set of protocols to maintain safety.**
+
+------------------------------------------------------------------------
+
+# 11/20/24
+
+For this final worksheet, we have been given real-world necropsy data from raccoons. This data shows the worm-burden of *Baylisascaris procyonis*, a parasitic nematode that lives in the GI tract of infected individuals. Worms are passed via feces after which the worms are transferred to other raccoon or non-raccoon hosts. Humans can become paratenic or "accidental" hosts when they inadvertently consume contaminated substances. I have run the data through QP web in 3 separate analyses: females vs males, young adults vs adults, and North vs. South vs. Central. Please see below for the results of the analysis. All prevalence's have been run with a 95% CI.
+
+1.  Females- Sterne's method
+
+    1.  Number infected: 24/37
+
+    2.  Prevalence: 0.649
+
+    3.  CI: (0.486 0.786)
+
+2.  Males- Sterne's method
+
+    1.  Number infected: 26/69
+
+    2.  Prevalence: 0.377
+
+    3.  CI: (0.267, 0.500)
+
+3.  Females vs Males- Fisher's Exact Test
+
+    1.  P-value: 0.0087
+
+When we compare the prevalence of infection with *B. procyonis*, the given P-value indicates a statistically significant result (less than 0.05). This means the difference in prevalence is meaningful. However, these numbers may or may not be a good reflection of the true burden of infection due to the discrepancy in sampling between males and females. It makes sense that the infection prevalence appears higher in female raccoons as fewer female raccoons were tested.
+
+In addition, when observing the raw data, I noticed that individual female raccoons tended to have higher worm burdens than individual male raccoons. This is something I think needs further study.
+
+Next, I analyzed the prevalence of infection in adults versus young adults.
+
+1.  Adults- Sterne's method
+
+    1.  Number Infected: 36/69
+
+    2.  Prevalence: 0.522
+
+    3.  CI: (0.404, 0.638)
+
+2.  Young Adults- Sterne's method
+
+    1.  Number Infected: 14/37
+
+    2.  Prevalence: 0.378
+
+    3.  CI: (0.234, 0.541)
+
+3.  Adults vs. Young Adults- Fisher's exact test
+
+    1.  P-value: 0.2206
+
+The P-value for the comparison between the prevalence for adults and young adults indicates that there is no statistically significant difference between the two prevalences. Although we cannot be 100% certain that this is an accurate representation of the total population and of the burden of disease, we can be certain that for this sample, the worms did not selectively choose adult over young adult hosts. In terms of implications for monitoring and potential intervention, this actually makes it more difficult for wildlife scientists. It is more difficult to create a method for prevention and/or treatment that will work for animals across different life stages, and it is more difficult to know what the age range focus should be.
+
+Finally, I analyzed the different regions.
+
+1.  North- Sterne's method
+    1.  Number infected: 14/29
+    2.  Prevalence: 0.286
+    3.  CI: (0.170, 0.428)
+2.  South- Sterne's method
+    1.  Number infected: 27/43
+    2.  Prevalence: 0.628
+    3.  CI: (0.477, 0.759)
+3.  Central- Sterne's method
+    1.  Number infected: 9/14
+    2.  Prevalence: 0.643
+    3.  CI: (0.371, 0.847)
+4.  North vs. South vs. Central- Fisher's exact test
+    1.  P-value: 0.0016
+
+The P-value for Fisher's exact test is statistically significant when comparing the prevalences for North, South, and Central regions. This is very helpful because although the sample may not be completely representative, the p-value being significant shows wildlife scientists where to turn their focus. The regions with higher prevalences should be those in focus when considering treatment and/or prevention methods or further general research. The Central and Southern regions should be in the most focus versus the Northern region. Having a higher prevalence in these regions could be due to a number of factors. What comes to my mind is climate change, which is affecting Southern and Central areas more quickly than Northern areas. We know that as temperatures increase, the spread of disease intensifies. The eggs of the raccoon roundworms are extremely hardy, and can survive extreme temperatures and fluctuations of temperatures, so they are well suited to warm environments (that are only getting warmer).
+
+## Yay! That's the end of my repository with all my worksheets! To celebrate, here's a picture of my cat, Siren, who helped me make it to the end of the semester.
+
+![](images/IMG_9097.jpeg)
