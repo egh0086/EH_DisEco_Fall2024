@@ -25,15 +25,13 @@ cat("The area of the circle with radius", radius, "is", circle_area, "\n")
 
 ```
 
-![](images/EpiTriad.png)
+<https://github.com/egh0086/EH_DisEco_Fall2024/blob/af8a48b85ea2e8f5ee4446291618e53a79673a16/EpiTriad.png>
 
 The epidemiological triad describes the relationship between the three factors that interact when disease occurs. This is a very simplistic view of the interactions between the host, pathogen, and environment. In reality, there are often more than one and different types of hosts, evolving pathogens, and changing environments. This makes epidemiology much more complex than the traditional triangle.
 
 ------------------------------------------------------------------------
 
 # 9/13/24
-
-![](images/ss_table.png)
 
 1\) Find the sample size necessary to detect a disease at or above 5% prevalence in a herd of 5000 deer. The desired confidence level is 95%.
 
@@ -205,6 +203,6 @@ Finally, I analyzed the different regions.
 
 The P-value for Fisher's exact test is statistically significant when comparing the prevalences for North, South, and Central regions. This is very helpful because although the sample may not be completely representative, the p-value being significant shows wildlife scientists where to turn their focus. The regions with higher prevalences should be those in focus when considering treatment and/or prevention methods or further general research. The Central and Southern regions should be in the most focus versus the Northern region. Having a higher prevalence in these regions could be due to a number of factors. What comes to my mind is climate change, which is affecting Southern and Central areas more quickly than Northern areas. We know that as temperatures increase, the spread of disease intensifies. The eggs of the raccoon roundworms are extremely hardy, and can survive extreme temperatures and fluctuations of temperatures, so they are well suited to warm environments (that are only getting warmer).
 
-## Yay! That's the end of my repository with all my worksheets! To celebrate, here's a picture of my cat, Siren, who helped me make it to the end of the semester. 
+## Yay! That's the end of my repository with all my worksheets! To celebrate, here's a picture of my cat, Siren, who helped me make it to the end of the semester.
 
 <https://github.com/egh0086/EH_DisEco_Fall2024/blob/98ca3019ff96f3dfa230b7c11d1de1686f74dbf9/IMG_9097.jpeg>
